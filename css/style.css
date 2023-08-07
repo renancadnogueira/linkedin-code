@@ -7,7 +7,7 @@
 @import url('./experiencias.css');
 @import url('./formacao.css');
 @import url('./idiomas.css');
-@import url('/css/sugestoes.css');
+@import url('./sugestoes.css');
 
 body{
   background-color: var(--fundo-escuro);
