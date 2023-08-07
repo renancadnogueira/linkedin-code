@@ -1,0 +1,49 @@
+@import url('./reset.css');
+@import url('./secao-informacoes-perfil.css');
+@import url('./navegacao.css');
+@import url('./destaques.css');
+@import url('./atividades.css');
+@import url('./sobre.css');
+@import url('./experiencias.css');
+@import url('./formacao.css');
+@import url('./idiomas.css');
+@import url('/css/sugestoes.css');
+
+body{
+  background-color: var(--fundo-escuro);
+}
+
+a{
+  color: var(--primario);
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+main{
+  margin: 0 auto;
+  width: 70%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 3fr 1fr;
+  gap: 1rem;
+  margin-top: 2.4rem;
+}
+
+@media screen and (max-width: 1360px) {
+  main {
+    width: 90%;
+  }
+}
+
+.botao-primario{
+  background-color: var(--primario);
+}
+
+.botao-secundario{
+  background: transparent;
+  color: var(--primario);
+  border: 1px solid var(--primario);
+}

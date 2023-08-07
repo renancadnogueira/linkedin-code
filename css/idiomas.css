@@ -1,0 +1,29 @@
+section.card.idioma{
+    padding: 1rem 1.6rem;
+    font-size: .875rem;
+    margin-bottom: 1rem;
+}
+
+li.idioma{
+    margin-top: 1rem;
+}
+
+li.idioma:first-child{
+    padding-bottom: .5rem;
+    border-bottom: 1px solid var(--texto-secundario);
+}
+
+/*Esse faz com que seleciona a segunda classe do idioma e coloque uma linha embaixo border-bottom*/
+li.idioma:nth-child(2){
+    padding-bottom: .5rem;
+    border-bottom: 1px solid var(--texto-secundario);
+}
+
+li.idioma p{
+    font-weight: 600;
+}
+
+li.idioma span{
+    font-size: .875rem;
+    color: var(--texto-secundario);
+}
